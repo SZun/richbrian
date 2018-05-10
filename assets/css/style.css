@@ -39,7 +39,7 @@ body{
 .vid{
     margin-top: 10%;
     width: 640px;
-    margin-left: -22px !important;
+    margin-left: -35px !important;
     z-index: 0 !important;
     animation: myFrames 20.15s   ease-in !important;
 }
