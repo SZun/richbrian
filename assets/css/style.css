@@ -1,0 +1,104 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+}
+
+body{
+    background: url('../images/dark-triangles.png');
+    overflow-y: hidden;
+}
+
+*{
+    padding: 0 !important;
+}
+
+.owls{
+    height: 136.4px;
+    width: 240px;
+    margin-top: 66%;
+}
+
+#rightOwl{
+    filter: invert(100%) !important;
+}
+
+.profileDiv{
+    background-color: #F9F9F9;
+}
+
+#profileImg{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #222222;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: -24px;
+}
+
+.vid{
+    margin-top: 10%;
+    width: 640px;
+    margin-left: -22px !important;
+    z-index: 0 !important;
+    animation: myFrames 18s !important;
+}
+
+@keyframes myFrames{
+
+    0%{
+        height: 0;
+        margin-left: -22px !important;
+
+    }
+    50%{
+        height: 90px;
+        margin-left: -22px !important;
+
+    }
+    51% {
+
+        height: 180px;
+        margin-left: -22px !important;
+
+    }
+    99%{
+        height: 180px;
+        margin-left: -22px !important;
+    }
+    100%{
+        height: 360px;
+        margin-left: -22px !important;
+    }
+}
+
+#content{
+    display: none;
+}
+
+
+
+.cross{
+    height: 178px;
+    width: 178px;
+    margin-top: 6%;
+}
+
+button{
+    margin-top: 300px !important;
+    margin-top: 60px !important;
+    font-family: 'Skranji', cursive;
+    font-size: 40px !important;
+    background-color: #3f51b5 !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12) !important;
+    border-radius: none !important;
+}
+
+#beginBtn{
+    width: 400px;
+    height: 50px;
+    margin-top: 380px !important;
+    margin-left: 90px;
+    border: none;
+}
